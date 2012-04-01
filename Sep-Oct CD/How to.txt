@@ -1,0 +1,5 @@
+1) Make Sure you have installed Arduino given in Software folder
+2) Install USB drivers for ESAT-ISP given in "tools\usbasp\bin\windriver\" select 1.12.1 driver file.
+3) Now go to Device Manager in COntrol panel and check whether usbasp is listed under the hardware.
+
+4) Open Source Code folder and go through readme.txt for further steps.

@@ -1,0 +1,39 @@
+Use Stereo Jack "Audion In" to give a stero input to equalizer or karaoke circuit.
+Use MIC Jack to connect an external MIC.
+Note : In case External MIC is connected, MIC on board will automatically be disconnected from the board.
+
+As mentioned in the article there can be two cases in which you may like to conenct hardware.
+
+Karaoke Circuit
+
+1) Connect Audion in to your audion from PC/Mobile or Mp3 player.
+2) Use Jumper SW1 to select whether you need Karaoke Effect or not.
+
+	a) Select A-(D-C) for Karaoke Effect - In this case POT no. PR2 is used to vary the Karaoke effect and POT no. PR1 is used for volume.
+	b) Select (A-D)-C for Normal Amplification - In this case output is exactly same as input.This connection should be made if Karaoke feature is not required.
+3) Now Connect output from Karaoke Circuit i.e PIN Oppoiste to (D) to L or R channel of the output Stereo Jack.
+4) Audio out PION near Capacitor C19 is directly conencted to the second channel.
+5) POT PR3 is used to increase and decrease the MIC volume.
+		
+
+
+
+Kindly follow the step below after making sure that your hardware connection are perfect.
+
+Step 1 - Open Arduino.exe
+
+Step 2- Before begining to write the code ,copy and unzip the two .zip folders in your libraries folder under arduino where all libraries are installed.
+
+Step 2 - Open a new window and Copy and paster Code in file Code.c in this window.
+
+
+Step 3 - Select Target Board as ESATarduino is your using ESAT-ISP evelopment board from Academy Of Embedded Technology.
+
+Step 4 - Select a COM Port if not available on your omputer or PC please install a virtual COM port software.
+Like : HWserial Virtual Serial port for windows 98/xp/7
+
+Step 5 - Uplaod the sotware to board.
+
+Note - Please make sure to close the arduino software each a time change is made in its directory.
+
+
